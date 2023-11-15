@@ -21,8 +21,6 @@ const Table = ({ sat }) => {
        <td>{data.launchDate}</td>
        <td>{data.operational ? "Active" : "Inactive"}</td>
      </tr>
-     For the Status, create a conditional that will tell a user if a satellite is active or inactive based on its operational value.
-
      </tbody>
            )
           })}
